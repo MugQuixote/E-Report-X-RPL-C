@@ -1,7 +1,31 @@
 /* Google Fonts */
-
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Caacupe+One&family=Chelsea+Market&family=Cherry+Bomb+One&family=Metal+Mania&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+80s+Fade&family=Rubik+Broken+Fax&family=Rubik+Dirt&family=Special+Elite&display=swap');
+
 
 body {
  font-family: "Chelsea Market", system-ui;
+  background-color: rgba(96, 200, 248, 0.493);
+}
+
+.hero .col img {
+    width: 300px;
+}
+
+#About .col img {
+    width: 69%;
+}
+
+section {
+    padding-top: 100px;
+}
+
+@media screen and (max-width:510px){
+    .hero .col img {
+        width: 100%;
+    }
+
+    #About .col img {
+        width: 50%;
+    }
+    
 }

@@ -3,7 +3,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: rgba(196, 255, 252, 0.904);
+  background-color: rgba(167, 211, 209, 0.904);
 }
 
 .hero .col img {
@@ -16,6 +16,23 @@ body {
 
 section {
     padding-top: 100px;
+}
+
+footer {
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+
+.footer-link {
+    opacity: 75%;
+}
+
+.footer-link:hover {
+    opacity: 100%;
+}
+
+.copyright {
+    margin-top: 100px;
 }
 
 @media screen and (max-width:510px){

@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | E-Report IDN</title>
     <link rel="shortcut icon" href="./Assets/image/logo.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-
+    
+    
     <!-- css bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
     <!-- my css -->
     <link rel="stylesheet" href="./Assets/style.css">
 
@@ -19,6 +19,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
         integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- CDN Animate.CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- CDN AOS -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 </head>
 
@@ -59,9 +66,9 @@
 
     <!-- Hero Section -->
     <section id="Hero">
-        <div class="container">
+        <div class="container overflow-hidden">
             <div class="hero row gap-5 flex-nowrap flex-column flex-lg-row text-lg-start text-center">
-                <div class="col">
+                <div class="col animate__animated animate__bounceInUp">
                     <h1 class="fw-bold" style="font-family:  VT323;">Welcome to <br> <span class="text-info">IDN
                             E-Report Application 2026</span> Complaint Forum</h1>
                     <p class="lh-lg">Welcome to IDN E-Report, in here you can complaint or report stuff regarding about
@@ -71,7 +78,7 @@
                         <a href="" class="btn btn-outline-info">Let's Start!</a>
                     </div>
                 </div>
-                <div class="col d-flex justify-content-center justify-content-lg-end h-2">
+                <div class="col animate__animated animate__bounceInUp animate__delay-1s d-flex justify-content-center justify-content-lg-end h-2">
                     <img src="./Assets/images/xiao.png" alt="">
                 </div>
             </div>
@@ -84,12 +91,12 @@
         <div class="container">
             <div class="row">
                 <div class="col text-center">
-                    <h1 class="fw-bold text-info mb-4">About us</h1>
-                    <p class="lh-lg mb-5">IDN is a boarding school based on technology. In here we usually learn Coding,
+                    <h1 class="fw-bold text-info mb-4  animate__animated animate__bounceInDown animate__delay-2s">About us</h1>
+                    <p class="lh-lg mb-5  animate__animated animate__bounceInDown animate__delay-2s">IDN is a boarding school based on technology. In here we usually learn Coding,
                         Network Engineering, and Media Design. IDN is known for it's amazing ways of learning
                         technology, where they can learn it's basics, even when you don't really understand about
                         technology!</p>
-                    <img src="./Assets/images/Phantom Thieves.png" alt="" style="height: 200px; width: 200px;">
+                    <img src="./Assets/images/Phantom Thieves.png" alt="" style="height: 200px; width: 200px;" class=" animate__animated animate__bounceInDown animate__delay-3s">
                 </div>
             </div>
         </div>
@@ -99,23 +106,23 @@
     <section id="Services">
         <div class="container text-center">
             <div>
-                <h1 class="fw-bold text-info">Our Services</h1>
-                <p class="lh-lg">In IDN We have 3 services</p>
+                <h1 data-aos="zoom-in" data-aos-duration="1000" class="fw-bold text-info">Our Services</h1>
+                <p data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" class="lh-lg">In IDN We have 3 services</p>
             </div>
             <div class="row p-4 gap-4">
-                <div class="col bg-danger-subtle p-4 rounded border border-primary text-primary-emphasis">
+                <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500" class="col bg-danger-subtle p-4 rounded border border-primary text-primary-emphasis">
                     <i class="fa-solid fa-graduation-cap"></i>
                     <h4 class="fw-bolder">Academic Complaint</h4>
                     <p class="lh-lg mt-3">Complaint about our academics. These are usually used when there are hard
                         subjects to study about.</p>
                 </div>
-                <div class="col bg-danger-subtle p-4 rounded border border-primary text-primary-emphasis">
+                <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="700" class="col bg-danger-subtle p-4 rounded border border-primary text-primary-emphasis">
                     <i class="fa-solid fa-screwdriver-wrench"></i>
                     <h4 class="fw-bolder">Facility Complaint</h4>
                     <p class="lh-lg mt-3">Complaints about our facility. These are usually used when the facility has
                         broken things, or dirty things. </p>
                 </div>
-                <div class="col bg-danger-subtle p-4 rounded border border-primary text-primary-emphasis">
+                <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="900" class="col bg-danger-subtle p-4 rounded border border-primary text-primary-emphasis">
                     <i class="fa-solid fa-user-secret"></i>
                     <h4 class="fw-bolder">Anon Complaint</h4>
                     <p class="lh-lg mt-3">Complaints made by anonymous. These are people who wanted to complain about
@@ -129,11 +136,11 @@
     <section id="Recent">
         <div class="container">
             <div class="text-center mb-5">
-                <h1>Latest Report</h1>
-                <p>These are the latest report from employees, parents, or students.</p>
+                <h1 data-aos="flip-down" data-aos-duration="1000" data-aos-delay="300" class="fw-bold text-info">Latest Report</h1>
+                <p data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="700">These are the latest report from employees, parents, or students.</p>
             </div>
             <div class="row mb-3">
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div data-aos="flip-left" data-aos-duration="1000" data-aos-anchor-placement="top-bottom" data-aos-delay="1500" class="col-12 col-md-6 col-lg-4 mb-4">
                     <div class="card">
                         <p style="background-color: rgba(0, 0, 0, 0.664);"
                             class="position-absolute text-white px-3 py-2">Academics(?)</p>
@@ -141,14 +148,14 @@
                             alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Dirty Class Report</h5>
-                            <p class="card-text">By: <a href="" class="text-decoration-none">Mug Quixote</a> 1 month ago
+                            <p class="card-text">By: <a href="" class="text-decoration-none">Mug Koto</a> 1 month ago
                             </p>
                             <p class="card-text">Genuinely how did those kids even managed to do this.</p>
                             <a href="#" class="btn btn-primary">More...</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div data-aos="flip-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom" data-aos-delay="1800" class="col-12 col-md-6 col-lg-4 mb-4">
                     <div class="card">
                         <p style="background-color: rgba(0, 0, 0, 0.664);"
                             class="position-absolute text-white px-3 py-2">Academics</p>
@@ -162,7 +169,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div data-aos="flip-right" data-aos-duration="1000" data-aos-anchor-placement="top-bottom" data-aos-delay="2000" class="col-12 col-md-6 col-lg-4 mb-4">
                     <div class="card">
                         <p style="background-color: rgba(0, 0, 0, 0.664);"
                             class="position-absolute text-white px-3 py-2">Anonymous</p>
@@ -179,7 +186,7 @@
                     </div>
                 </div>
             </div>
-            <a class="text-center d-block link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+            <a data-aos="fade-right" data-aos-duration="2000" class="text-center d-block link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
                 href="#">
                 More... <i class="fa-solid fa-arrow-right"></i>
             </a>
@@ -191,13 +198,13 @@
     <section id="FAQ">
         <div class="container">
             <div class="row">
-                <h1>FAQ</h1>
-                <p>These are the questions that most people frequently ask. So please read these if you're confused
+                <h1 data-aos="zoom-out-up" data-aos-duration="600" class="fw-bold text-info">FAQ</h1>
+                <p data-aos="zoom-out-down">These are the questions that most people frequently ask. So please read these if you're confused
                     about this website!</p>
             </div>
             <div class="accordion mt-4" id="accordion-example">
                 <div class="row row-cols-1 row-cols-md-2 g-4">
-                    <div class="col">
+                    <div data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="100" class="col">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button bg-danger text-white" type="button"
@@ -213,7 +220,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="200" class="col">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button bg-danger text-white" type="button"
@@ -230,7 +237,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="300" class="col">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button bg-danger text-white" type="button"
@@ -248,7 +255,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="400" class="col">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button bg-danger text-white" type="button"
@@ -266,7 +273,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="500" class="col">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button bg-danger text-white" type="button"
@@ -282,7 +289,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="600" class="col">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button bg-danger text-white" type="button"
@@ -361,6 +368,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
         integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
         crossorigin="anonymous"></script>
+
+    <!-- js aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+       AOS.init();
+    </script>
 </body>
 
 </html>

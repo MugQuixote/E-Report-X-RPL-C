@@ -1,6 +1,4 @@
-string john = "Mrow";
-int hell = 666;
-
-Console.WriteLine(john);
-
-Console.WriteLine(hell);
+float f1 = 35e3F;
+double d1 = 12E4D;
+Console.WriteLine(f1);
+Console.WriteLine(d1);
